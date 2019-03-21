@@ -29,6 +29,4 @@ HELP.md
 .vscode/
 
 ### Maven ###
-.mvn*
-.mvn/*
-mvnw
+.mvn/wrapper/maven-wrapper.jar
