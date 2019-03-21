@@ -10,7 +10,7 @@
 4. La API esperará recibir los siguientes parámetros: **inicio**, **fin**, **x0**, **fx0**, **intervalos** y **funcion**. La función posee las variables *x* e *y*, y se entiende que F(x0) = fx0
 5. La API devolverá una respuesta con los puntos necesarios para gráficar el resultado, y, a su vez, graficará en una ventana de Java los mismos.
 
-### Ejemplo de json enviado a la API
+### Ejemplo de json enviado a la API (método POST)
 ```
 {
 	"inicio": 0,
@@ -21,4 +21,5 @@
 	"funcion": "2x+6y"
 }
 ```
-  
+
+*Se puede usar la aplicación Postman para probar los resultados*
